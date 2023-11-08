@@ -1,0 +1,22 @@
+{
+  "dependencies": {
+    "chai": "^4.3.7",
+    "mocha": "^10.2.0",
+    "protractor": "^7.0.0",
+    "selenium-webdriver": "^4.15.0"
+  },
+  "name": "selenium",
+  "version": "1.0.0",
+  "main": "first_test.js",
+  "scripts": {
+    "webdriver:update": "webdriver-manager update",
+    "test": "protractor ./protractor.conf.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "directories": {
+    "test": "test"
+  },
+  "devDependencies": {},
+  "description": ""
+}
