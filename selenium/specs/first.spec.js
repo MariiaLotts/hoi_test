@@ -6,7 +6,7 @@ async function signInTest() {
 
     try {
         // Load the website
-        await driver.get('https://www.leadingdealsglobal.com/offer/sfs-13-sso-u-s3');
+        await driver.get('');
 
         // Wait for the next page to load
         await driver.wait(until.elementLocated(By.className('p-step-wrapper')), 60000);
